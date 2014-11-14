@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfApplication1.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GameWindow" Height="384" Width="683" Topmost="True" WindowState="Maximized" WindowStyle="None">
+    <Canvas x:Name="MainCanvas" HorizontalAlignment="Left" Height="384" VerticalAlignment="Top" Width="683" Margin="0,0,-8,-8" MouseDown="GridMousedDown">
+        <Grid x:Name="Background2" Height="384" Width="683" MouseDown="GridMousedDown"> </Grid>
+        <TextBlock x:Name="Timer" Height="384" TextWrapping="Wrap" Text="TextBlock" Width="683"/>
+    </Canvas>
+</Window>
